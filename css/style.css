@@ -16,20 +16,19 @@
   font-size: 18px;
 }
 
-.parent {
-  display: flex;
-  align-items: flex-end;
-  height: 400px;
-}
-
 .text {
   font-size: 50px;
+  position: absolute;
+  top: 450px;
 }
 
 .color_box {
   background-color: darkblue;
   height: 200px;
   width: 75%;
+  position: absolute;
+  top: 500px;
+  z-index: -1;
 }
 
 .relative {
@@ -37,10 +36,9 @@
 }
 
 .relative_img {
-  margin: 0 0 0 auto;
   display: block;
   width: 50%;
   position: absolute;
-  top: 50px;
-  right: 0px;
+  right: 0;
+  top: 200px;
 }
