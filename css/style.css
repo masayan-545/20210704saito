@@ -1,0 +1,45 @@
+.frame {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  color: darkblue;
+}
+
+.left {
+  margin-right: 600px;
+  font-size: 25px;
+}
+
+.right {
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.parent {
+  display: flex;
+  align-items: flex-end;
+  height: 400px;
+}
+
+.text {
+  font-size: 50px;
+}
+
+.color_box {
+  background-color: darkblue;
+  height: 200px;
+  width: 75%;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative_img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
